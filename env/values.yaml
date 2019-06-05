@@ -22,3 +22,6 @@ jenkins:
       EnvVars:
         TILLER_NAMESPACE: kube-system
 prow: {}
+my-go-app:
+  env:
+    TITLE: Läuft bei google!
